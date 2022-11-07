@@ -1,0 +1,169 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h3
+{
+  font: "Montserrat-Bold";
+}
+
+h2
+{
+
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid
+{
+  padding:3% 15%;
+}
+.heading1
+{
+  font-family:"Montserrat-Black";
+  font-size: 5rem;
+  line-height: 1.5;
+
+}
+
+/* navigation bar */
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding:0 13px;
+}
+.nav-link
+{
+  font-size: 2.2rem;
+  /* font-family: "Montserrat-light"; */
+}
+/* buttons */
+.download-button{
+
+  margin: 5% 3% 5% 0;
+}
+/* title image */
+.title-image
+{
+  width: 60%;
+  margin: 100px;
+  transform: rotate(24deg);
+
+}
+
+/* features */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.feature-box
+{
+  padding:5%;
+}
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color:#ff4c68;
+}
+/* ------------------------------------------------------------ */
+ /* testimonials */
+ #testimonials
+ {
+   background-color:#ef8172;
+   color:#fff;
+ }
+ .testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin:20px;
+ }
+ .carousel-item
+ {
+   padding:7% 15%;
+ }
+ #press{
+   background-color: #ef8172;
+   padding-bottom: 3%;
+ }
+ .press-logo
+ {
+   width:15%;
+   margin:20px 20px 50px;
+ }
+ /* pricing */
+ #pricing{
+  padding :100px;
+ }
+ .pricing-column
+ {
+   padding: 3% 2%;
+ }
+ /* call to action     */
+ #cta{
+   padding: 7% 15%;
+   background-color:#ff4c68;
+   color: #fff;
+
+ }
+ .cta-heading1{
+   font-family: "Montserrat-Black";
+  font-size: 4rem;
+  line-height: 1.5rem;
+ }
+ #footer{
+   padding: 7% 15%;
+   background-color: #fff;
+ }
+ .social-button
+ {
+   margin:20px 10px;
+ }
+@media screen and (max-width:1028 px) {
+   #title
+   {
+     text-align: center;
+   }
+   .title-image
+   {
+     transform: rotate(0);
+   }
+}
+.blue
+{
+  color:#1DA1F2;
+}
+.dark-blue
+{
+  color:#4267B2;
+}
+.pink
+{
+  color:#C13584;
+}
+.card
+{
+  background-color: #ef8172;
+}
+.card-body
+{
+  color:#fff;
+}
